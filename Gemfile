@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 
-gem 'validates_timeliness', '~> 5.0.0.beta1'
+gem 'validates_timeliness', github: "adzap/validates_timeliness", branch: "master"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
